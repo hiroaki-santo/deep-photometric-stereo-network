@@ -85,7 +85,7 @@ Best checkpoint file.
 ### ``eval``
 Estimated images for synthetic test data.
 
-Testing for DiLiGenT
+Result
 ====================
-
-We will add testing code for DiLiGenT dataset.
+Our estimated normal maps of DiLiGenT are available in ``.npy`` format.
+When you want to use them for the comparison, please contact to the first author of the paper.
