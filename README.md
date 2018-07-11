@@ -12,7 +12,7 @@ We use the deep learning framework **Tensorflow** with following libraries:
  * tqdm
  * Boost.Numpy (https://github.com/ndarray/Boost.NumPy)
 
-We use python 2.7 on Ubuntu 14.04. You can use our ``Dockerfile``.
+We use python 2.7 on Ubuntu 14.04. You can use our ``Dockerfile`` (`Nvidia-docker` is required). 
 
 
 Download datasets
