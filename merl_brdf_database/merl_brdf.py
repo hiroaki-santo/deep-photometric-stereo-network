@@ -54,7 +54,7 @@ class BrdfModel(object):
         foot_view = self.calc_foot_point_on_plane(normal, view)
 
         phi_in = 0.0
-        phi_out = np.arccos(np.dot(foot_light, foot_view) / (np.linalg.norm(foot_light) * np.linalg.norm(foot_view)))
+        phi_out = np.arccos(np.dot(foot_light, foot_view) / (np.linalg.norm(foot_light) * np.linalg.norm(foot_view) + 1e-8))
 
         return self.lookup_brdf_by_angle(theta_in, phi_in, theta_out, phi_out)
 
